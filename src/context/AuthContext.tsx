@@ -31,7 +31,7 @@ export const AuthContext = createContext<AuthContextType>({
 
 export const useAuth = () => useContext(AuthContext);
 
-const API_BASE = import.meta.env.VITE_API_URL || "https://meal-bridge-backend.onrender.com";
+const API_BASE = import.meta.env.VITE_API_URL || "https://food-donation-backend-bjsa.onrender.com";
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);

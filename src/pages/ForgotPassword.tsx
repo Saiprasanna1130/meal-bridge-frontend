@@ -9,7 +9,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useToast } from '@/components/ui/use-toast';
 import { ArrowLeft, Mail, Shield, Key } from 'lucide-react';
 
-const API_BASE = import.meta.env.VITE_API_URL || "https://meal-bridge-backend.onrender.com";
+const API_BASE = import.meta.env.VITE_API_URL || "https://food-donation-backend-bjsa.onrender.com";
 
 type Step = 'email' | 'otp' | 'password';
 

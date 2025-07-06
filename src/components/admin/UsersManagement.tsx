@@ -15,7 +15,7 @@ const UsersManagement = () => {
   const [users, setUsers] = useState<User[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const API_BASE = import.meta.env.VITE_API_URL || "https://meal-bridge-backend.onrender.com";
+  const API_BASE = import.meta.env.VITE_API_URL || "https://food-donation-backend-bjsa.onrender.com";
 
   useEffect(() => {
     fetchUsers();
